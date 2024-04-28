@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5033:5033"
+    volumes:
+      - ./:/app
+      - ./templates:/app/templates
+    environment:
+      FLASK_APP: app.py
+      FLASK_ENV: development
+    depends_on:
+      - redis
+  redis:
+    image: "redis:alpine"

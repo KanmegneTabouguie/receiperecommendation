@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Recommendation System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    select, input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background-color: #FF6347;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #E85435;
+    }
+
+    #recommendationResult {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #recommendationResult h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    #recommendationResult p {
+      margin-bottom: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recipe Recommendation System</h1>
+  
+  <form id="recommendationForm">
+    <label for="dietaryPreference">Dietary Preference:</label>
+    <select id="dietaryPreference">
+        <option value="vegetarian">Vegetarian</option>
+        <option value="meat">Meat</option>
+        <option value="fish">Fish</option>
+    </select>
+    <label for="numRecommendations">Number of Recommendations:</label>
+    <input type="number" id="numRecommendations" value="5">
+    <button type="button" onclick="getRecommendations()">Get Recommendation</button>
+  </form>
+
+  <div id="recommendationResult"></div>
+
+  <script>
+    function getRecommendations() {
+      var dietaryPreference = document.getElementById('dietaryPreference').value;
+      var numRecommendations = document.getElementById('numRecommendations').value;
+
+      fetch('/recommend', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ dietaryPreference: dietaryPreference, numRecommendations: numRecommendations })
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Request failed: ' + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        var recommendationResult = document.getElementById('recommendationResult');
+        recommendationResult.innerHTML = '';
+        data.forEach(recipe => {
+          var recipeElement = document.createElement('div');
+          recipeElement.innerHTML = '<h2>' + recipe.recipe_name + '</h2>' +
+                                    '<p><strong>Ingredients:</strong> ' + recipe.ingredients.join(', ') + '</p>' +
+                                    '<p><strong>Cooking Instructions:</strong> ' + recipe.cooking_instructions.join('<br>') + '</p>';
+          recommendationResult.appendChild(recipeElement);
+        });
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        var recommendationResult = document.getElementById('recommendationResult');
+        recommendationResult.innerHTML = '<p>Error: No recommendation was provided. Please try again.</p>';
+      });
+    }
+  </script>
+</body>
+</html>

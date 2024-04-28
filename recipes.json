@@ -1,0 +1,236 @@
+[
+    {
+      "recipe_name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "ground beef", "onion", "garlic", "crushed tomatoes", "tomato paste", "olive oil", "salt", "pepper", "oregano", "basil"],
+      "cooking_instructions": [
+        "Cook spaghetti according to package instructions.",
+        "In a large skillet, heat olive oil over medium heat. Add chopped onion and minced garlic, cook until softened.",
+        "Add ground beef to the skillet and cook until browned. Drain excess fat.",
+        "Stir in crushed tomatoes, tomato paste, salt, pepper, oregano, and basil. Simmer for 15-20 minutes.",
+        "Serve sauce over cooked spaghetti."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Vegetable Stir-Fry",
+      "ingredients": ["broccoli", "bell pepper", "carrots", "snap peas", "tofu", "soy sauce", "sesame oil", "garlic", "ginger", "rice"],
+      "cooking_instructions": [
+        "In a wok or large skillet, heat sesame oil over medium-high heat.",
+        "Add minced garlic and ginger, cook for 1 minute.",
+        "Add chopped vegetables and tofu to the skillet, stir-fry for 5-7 minutes.",
+        "Pour soy sauce over the vegetables and tofu, toss to coat evenly.",
+        "Serve over cooked rice."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Chicken Caesar Salad",
+      "ingredients": ["chicken breast", "romaine lettuce", "croutons", "Parmesan cheese", "Caesar dressing", "salt", "pepper"],
+      "cooking_instructions": [
+        "Season chicken breast with salt and pepper. Grill or bake until cooked through.",
+        "Cut cooked chicken into bite-sized pieces.",
+        "In a large bowl, toss together chopped romaine lettuce, croutons, and grated Parmesan cheese.",
+        "Add cooked chicken to the salad.",
+        "Drizzle Caesar dressing over the salad and toss to coat evenly.",
+        "Serve immediately."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Baked Salmon",
+      "ingredients": ["salmon fillets", "lemon", "olive oil", "garlic", "dill", "salt", "pepper"],
+      "cooking_instructions": [
+        "Preheat oven to 375°F (190°C).",
+        "Place salmon fillets on a baking sheet lined with parchment paper.",
+        "Drizzle olive oil over the salmon fillets and season with minced garlic, chopped dill, salt, and pepper.",
+        "Place lemon slices on top of the salmon fillets.",
+        "Bake in the preheated oven for 12-15 minutes, or until salmon is cooked through.",
+        "Serve with lemon wedges."
+      ],
+      "dietary_tags": ["fish"]
+    },
+    {
+      "recipe_name": "Caprese Salad",
+      "ingredients": ["tomatoes", "fresh mozzarella cheese", "basil leaves", "balsamic glaze", "olive oil", "salt", "pepper"],
+      "cooking_instructions": [
+        "Slice tomatoes and fresh mozzarella cheese into thick slices.",
+        "Arrange tomato slices, mozzarella slices, and fresh basil leaves on a serving platter.",
+        "Drizzle with balsamic glaze and olive oil.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Chicken Alfredo Pasta",
+      "ingredients": ["penne pasta", "chicken breast", "heavy cream", "Parmesan cheese", "butter", "garlic", "salt", "pepper"],
+      "cooking_instructions": [
+        "Cook penne pasta according to package instructions.",
+        "Season chicken breast with salt and pepper. Grill or pan-fry until cooked through. Slice into strips.",
+        "In a large skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
+        "Pour heavy cream into the skillet and bring to a simmer. Stir in grated Parmesan cheese until melted and smooth.",
+        "Add cooked pasta and chicken strips to the skillet, toss to coat in the Alfredo sauce.",
+        "Serve hot, garnished with additional Parmesan cheese if desired."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Vegetable Soup",
+      "ingredients": ["carrots", "celery", "onion", "garlic", "vegetable broth", "canned tomatoes", "green beans", "potatoes", "bay leaves", "thyme", "salt", "pepper"],
+      "cooking_instructions": [
+        "Heat olive oil in a large pot over medium heat.",
+        "Add chopped onion, carrots, and celery. Cook until softened.",
+        "Stir in minced garlic and cook for 1 minute.",
+        "Pour in vegetable broth and canned tomatoes with their juices. Add chopped potatoes, green beans, bay leaves, and thyme.",
+        "Bring soup to a boil, then reduce heat and simmer for 20-25 minutes, or until vegetables are tender.",
+        "Season with salt and pepper to taste.",
+        "Serve hot, optionally garnished with fresh parsley."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Beef Tacos",
+      "ingredients": ["ground beef", "taco seasoning", "tortillas", "lettuce", "tomato", "cheese", "sour cream", "salsa"],
+      "cooking_instructions": [
+        "In a skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+        "Stir in taco seasoning and water according to package instructions. Simmer for 5 minutes.",
+        "Warm tortillas in a separate skillet or in the microwave.",
+        "Fill tortillas with cooked ground beef, shredded lettuce, diced tomato, grated cheese, sour cream, and salsa.",
+        "Serve hot, optionally garnished with chopped cilantro and lime wedges."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Margherita Pizza",
+      "ingredients": ["pizza dough", "tomato sauce", "fresh mozzarella cheese", "fresh basil leaves", "olive oil", "salt", "pepper"],
+      "cooking_instructions": [
+        "Preheat oven to the highest temperature setting (usually around 500°F or 260°C).",
+        "Roll out pizza dough on a floured surface into a circle.",
+        "Spread tomato sauce over the pizza dough, leaving a small border around the edges.",
+        "Tear fresh mozzarella cheese into pieces and arrange evenly on top of the sauce.",
+        "Place fresh basil leaves on the pizza.",
+        "Drizzle with olive oil and season with salt and pepper.",
+        "Bake in the preheated oven for 10-12 minutes, or until crust is golden brown and cheese is bubbly.",
+        "Serve hot, optionally garnished with grated Parmesan cheese."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Pasta Primavera",
+      "ingredients": ["penne pasta", "broccoli", "bell pepper", "carrots", "snap peas", "cherry tomatoes", "garlic", "olive oil", "Parmesan cheese", "salt", "pepper"],
+      "cooking_instructions": [
+        "Cook penne pasta according to package instructions.",
+        "In a large skillet, heat olive oil over medium heat. Add minced garlic and cook for 1 minute.",
+        "Add chopped vegetables to the skillet and sauté until tender-crisp.",
+        "Toss cooked pasta with the sautéed vegetables. Season with salt and pepper.",
+        "Serve hot, garnished with grated Parmesan cheese."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Quinoa Salad",
+      "ingredients": ["quinoa", "cucumber", "cherry tomatoes", "red onion", "feta cheese", "olive oil", "lemon juice", "salt", "pepper"],
+      "cooking_instructions": [
+        "Rinse quinoa under cold water. Cook quinoa according to package instructions.",
+        "In a large bowl, combine cooked quinoa, chopped cucumber, halved cherry tomatoes, finely chopped red onion, and crumbled feta cheese.",
+        "Drizzle with olive oil and lemon juice. Season with salt and pepper to taste.",
+        "Toss to combine all ingredients.",
+        "Serve chilled or at room temperature."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Chicken Teriyaki",
+      "ingredients": ["chicken thighs", "soy sauce", "honey", "garlic", "ginger", "sesame oil", "green onions", "sesame seeds"],
+      "cooking_instructions": [
+        "In a bowl, whisk together soy sauce, honey, minced garlic, minced ginger, and sesame oil.",
+        "Marinate chicken thighs in the sauce for at least 30 minutes, or overnight in the refrigerator.",
+        "Heat a skillet over medium-high heat. Add marinated chicken thighs and cook until browned on both sides and cooked through.",
+        "Pour remaining marinade into the skillet and simmer until thickened.",
+        "Garnish chicken with sliced green onions and sesame seeds.",
+        "Serve hot, optionally with steamed rice and vegetables."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Veggie Omelette",
+      "ingredients": ["eggs", "bell pepper", "onion", "spinach", "tomato", "cheese", "salt", "pepper"],
+      "cooking_instructions": [
+        "In a bowl, beat eggs with salt and pepper.",
+        "Heat a non-stick skillet over medium heat. Add chopped bell pepper and onion, cook until softened.",
+        "Add chopped spinach and diced tomato to the skillet, cook until spinach is wilted.",
+        "Pour beaten eggs over the vegetables. Cook until the edges are set.",
+        "Sprinkle grated cheese over one half of the omelette. Fold the other half over the cheese.",
+        "Cook for another minute until cheese is melted and omelette is cooked through.",
+        "Serve hot, optionally garnished with chopped parsley."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Greek Salad",
+      "ingredients": ["tomatoes", "cucumber", "red onion", "Kalamata olives", "feta cheese", "olive oil", "red wine vinegar", "oregano", "salt", "pepper"],
+      "cooking_instructions": [
+        "Chop tomatoes, cucumber, and red onion into bite-sized pieces.",
+        "In a large bowl, combine chopped vegetables with pitted Kalamata olives and crumbled feta cheese.",
+        "Drizzle with olive oil and red wine vinegar. Season with dried oregano, salt, and pepper.",
+        "Toss to combine all ingredients.",
+        "Serve chilled or at room temperature."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Beef Stir-Fry",
+      "ingredients": ["beef sirloin", "broccoli", "bell pepper", "carrots", "snap peas", "soy sauce", "garlic", "ginger", "sesame oil", "cornstarch"],
+      "cooking_instructions": [
+        "Thinly slice beef sirloin against the grain.",
+        "In a bowl, whisk together soy sauce, minced garlic, minced ginger, sesame oil, and cornstarch.",
+        "Marinate beef slices in the sauce for at least 30 minutes.",
+        "In a wok or large skillet, heat oil over high heat. Add marinated beef slices and stir-fry until browned.",
+        "Add chopped vegetables to the wok and stir-fry until tender-crisp.",
+        "Serve hot, optionally over cooked rice."
+      ],
+      "dietary_tags": ["meat"]
+    },
+    {
+      "recipe_name": "Shrimp Scampi",
+      "ingredients": ["shrimp", "linguine pasta", "butter", "garlic", "white wine", "lemon juice", "parsley", "salt", "pepper"],
+      "cooking_instructions": [
+        "Cook linguine pasta according to package instructions.",
+        "In a large skillet, melt butter over medium heat. Add minced garlic and cook until fragrant.",
+        "Add shrimp to the skillet and cook until pink and opaque.",
+        "Pour in white wine and lemon juice. Simmer until slightly reduced.",
+        "Toss cooked linguine pasta with the shrimp and sauce.",
+        "Garnish with chopped parsley and season with salt and pepper to taste.",
+        "Serve hot, optionally with grated Parmesan cheese."
+      ],
+      "dietary_tags": ["fish"]
+    },
+    {
+      "recipe_name": "Mushroom Risotto",
+      "ingredients": ["arborio rice", "mushrooms", "onion", "garlic", "white wine", "vegetable broth", "Parmesan cheese", "butter", "olive oil", "salt", "pepper"],
+      "cooking_instructions": [
+        "In a saucepan, heat vegetable broth over low heat.",
+        "In a separate large skillet, heat olive oil and butter over medium heat. Add chopped onion and minced garlic, cook until softened.",
+        "Add sliced mushrooms to the skillet and cook until browned.",
+        "Stir in arborio rice and cook for 1 minute, until rice is translucent around the edges.",
+        "Pour in white wine and cook until absorbed.",
+        "Gradually add warm vegetable broth to the skillet, stirring frequently, until rice is cooked through and creamy.",
+        "Stir in grated Parmesan cheese and season with salt and pepper to taste.",
+        "Serve hot, optionally garnished with chopped parsley."
+      ],
+      "dietary_tags": ["vegetarian"]
+    },
+    {
+      "recipe_name": "Pesto Pasta",
+      "ingredients": ["penne pasta", "basil pesto", "cherry tomatoes", "Parmesan cheese", "olive oil", "garlic", "salt", "pepper"],
+      "cooking_instructions": [
+        "Cook penne pasta according to package instructions.",
+        "In a large skillet, heat olive oil over medium heat. Add minced garlic and cook until fragrant.",
+        "Add cherry tomatoes to the skillet and cook until softened.",
+        "Toss cooked pasta with basil pesto, sautéed cherry tomatoes, and grated Parmesan cheese.",
+        "Serve hot, optionally garnished with additional Parmesan cheese and fresh basil leaves."
+      ],
+      "dietary_tags": ["vegetarian"]
+    }
+  ]
+  
